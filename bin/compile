@@ -203,6 +203,7 @@ if [ ! -e $build_dir/Procfile ]; then
   fi
 fi
 
+npm install git+https://github.com/curiouslybrown/node-phash.git
 # Update the PATH
 status "Building runtime environment"
 mkdir -p $build_dir/.profile.d
